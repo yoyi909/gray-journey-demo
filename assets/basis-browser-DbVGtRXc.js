@@ -1,0 +1,1 @@
+async function e(e){let t=new URL(new URL(`basis_transcoder-Bt4OIU4S.mjs`,import.meta.url).href,``+import.meta.url),n=new URL(new URL(`basis_transcoder-DP3Zn1NN.wasm`,import.meta.url).href,``+import.meta.url),r=(await import(t.href)).default;return r({locateFile:()=>n.href,...e})}export{e as default};
